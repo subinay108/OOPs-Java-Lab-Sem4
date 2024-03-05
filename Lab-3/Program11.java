@@ -13,14 +13,17 @@ class Room{
         height = h;
     }
 
-    private double getWallArea(){
+    public double getWallArea(){
         return 2 * (length + breadth) * height;
     }
-    private double getRoofArea(){
+    public double getRoofArea(){
         return length + breadth;
     }
-    private double getFloorArea(){
+    public double getFloorArea(){
         return length + breadth;
+    }
+    public double getVolume(){
+        return length * breadth * height;
     }
 
     public double getTotalPaintingCost(){
