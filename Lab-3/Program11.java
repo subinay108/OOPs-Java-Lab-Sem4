@@ -68,7 +68,7 @@ public class Program11 {
         try{
             s = br.readLine();
         }catch(IOException e){
-            System.err.println("Error: "+ e);
+            System.err.println("Error: "+ e.getMessage());
         }
         return s;
     }
