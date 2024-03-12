@@ -13,7 +13,7 @@ public class Program14 {
         double side = Double.parseDouble(ui.input("Enter the side of square: "));
         
         System.out.println("Rectangle area: " + calculateArea(length, breadth));
-        System.out.println("Square are: " + calculateArea(side));
+        System.out.println("Square area: " + calculateArea(side));
     }
     public static double calculateArea(double length, double breadth){
         return length * breadth;

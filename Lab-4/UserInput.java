@@ -4,6 +4,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+class Book{
+    public void display(){
+        
+    }
+
+}
+
 public class UserInput {
 
     public String input(String prompt){

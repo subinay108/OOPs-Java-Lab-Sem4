@@ -1,9 +1,9 @@
 // Design a class to represent a bank account using constructor(name, id, initial balance) in methods(deposit, withdraw, display)
 
 class BankAccount{
-    String name;
-    int id;
-    double balance;
+    private String name;
+    private int id;
+    private double balance;
     public BankAccount(String name, int id, double initialBalance){
         this.name = name;
         this.id = id;
@@ -55,3 +55,4 @@ public class Program15 {
         
     }
 }
+
