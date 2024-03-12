@@ -26,5 +26,5 @@ public class Program13 {
 
         System.out.println("Rectangle Area: " + rect.getArea());
         System.out.println("Square Area: " + square.getArea());
-    } 
+    }  
 }
